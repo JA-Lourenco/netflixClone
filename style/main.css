@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Secular+One&display=swap');
+
+:root {
+    --red: #E50914;
+    --black: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--black);
+    font-family: 'Secular One', sans-serif;
+    color: #FFF;
+}
+
+/* Elementos Base */
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--red);
+    font-family: 'League Gothic', sans-serif;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 8px;
+}
+
+header nav a:hover {
+    color: #FFF;
+}
+
+/* Filme Principal */
+.filme-principal {
+    font-size: 12px;
+    background: linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0, .55)), url("../img/vikings-bg-cover.jpg");
+    height: 800px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 5%;
+}
+
+.botoes a {
+    text-decoration: none;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: #FFF;
+    padding: 15px;
+    margin-right: 20px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.botao:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 50%;
+    text-align: justify;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrossel-filmes {
+    margin-top: 5px;
+}
