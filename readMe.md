@@ -8,6 +8,10 @@
 
 ![Carrossel](img/carrossel-demo.gif)
 
+### Demonstração
+
+[Acesse aqui!](https://ja-lourenco.github.io/netflixClone/)
+
 ### Techs
 
 - HTML
@@ -20,4 +24,3 @@
 *Curso do bootcamp*
 
 - [Repositório do Instrutor](https://github.com/felipeAguiarCode/netflix-clone)
-
